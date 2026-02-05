@@ -19,7 +19,7 @@ print(my_scape_line_string)
 
 # Formateo
 
-name, surname, age = "Sergio", "Carrasco", 31
+name, surname, age = "Sergio", "Carrasco", 32
 
 print("Mi nombre es {} {} y mi edad es {}".format(name, surname, age)) # Se usa {} si queremos meter el item tal cual.
 print("Mi nombre es %s %s y mi edad es %d" %(name, surname, age)) # %s para formateos de tipo Strings, %d para formateos de tipo int.
@@ -57,4 +57,5 @@ print(language.isnumeric()) # Devuelve True o False según detecte o no que el c
 print("1".isnumeric()) # Ejemplo de True ya que "1" es un número.
 print(language.lower()) # Pone la cadena de texto completa en minusculas.
 print(language.upper().isupper()) # Concatenación que pone en mayusculas y comprueba si está en mayusculas. En este caso devuelve True.
+
 print(language.startswith("Py")) # Comprueba si comienza por lo que se pida en el segundo paréntesis. En este caso dará False ya que Python compara mayusculas y minusculas.
